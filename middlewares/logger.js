@@ -19,6 +19,7 @@ class Logger extends EventEmitter {
     console.log(message);
   }
 }
+
 // emitter.on("logging", (args) => {
 //   console.log(args);
 // });
@@ -27,4 +28,5 @@ class Logger extends EventEmitter {
 // //OR
 // module.exports = log;
 // //OR
+
 module.exports = Logger;
